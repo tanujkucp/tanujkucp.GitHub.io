@@ -18,6 +18,7 @@ body {
   background-color: #42a5f5;
   border-color: #42a5f5;
   margin-bottom: 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 .navbar-default div.navbar-collapse {
   border-top: none;
@@ -41,6 +42,7 @@ body {
 }
 .navbar-default .navbar-brand {
   border-bottom: 2px solid #42a5f5;
+  margin-right: 10px;
 }
 .navbar-default .navbar-brand:hover ,.navbar-default .navbar-brand:focus {
   border-bottom: 2px solid #fff;

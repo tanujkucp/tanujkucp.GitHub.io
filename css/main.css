@@ -36,6 +36,10 @@
 #github {
   color: #333;
 }
+#resume {
+  color: #222;
+  background-color: rgba(85, 188, 219, 0.84);
+}
 #shopify {
   color: #96bf48;
 }
