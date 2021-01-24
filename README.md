@@ -10,6 +10,6 @@
 🐸
 🦑
 
-Feel free to use this website as a template for your own! 
+This is source code for my personal website hosted at [tanujkucp.GitHub.io](https://tanujkucp.github.io/) 
 
-Author: [BenEmdon](https://github.com/benemdon)
+Author: [Tanuj Mehta](https://github.com/tanujkucp)
