@@ -29,12 +29,20 @@
 
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" />
+
+    <!-- Custom index css -->
+    <link rel="stylesheet" href="css/main.css">
 
     <!-- Custom navbar and footer css -->
     <link rel="stylesheet" href="css/nav-and-footer.css">
 
+    <!-- Custom cards css -->
+    <link rel="stylesheet" href="css/projects.css">
+
     <!-- Custom fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500&amp;subset=latin-ext" rel="stylesheet">
 
     <!-- Manifest file for web application -->
     <!--    <link rel="manifest" href="manifest.json"/>-->
@@ -58,25 +66,37 @@
 </head>
 
 <header>
-    <div class="navbar navbar-default navbar-static-top">
-        <div class="container">
-            <a href="https://tanujkucp.github.io/">
-            <span class="navbar-brand" style="color: white;">
+    <div class="navbar navbar-default navbar-static-top" style="padding-bottom: 0px; padding-top: 0px">
+        <div class="container"  style="justify-content: left; padding-left: 0px">
+            <a href="https://tanujkucp.github.io/" style="margin-right: 10px">
+            <span class="navbar-brand" style="color: white; padding: 15px; line-height: 20px;">
                 <strong>Home</strong>
             </span>
             </a>
-            <a href="resume">
-            <span class="navbar-brand" style="color: white;">
+            <a href="resume" style=" margin-right: 10px">
+            <span class="navbar-brand" style="color: white; padding: 15px; line-height: 20px;">
                 <strong>Resume</strong>
             </span>
             </a>
-            <a href="projects">
-            <span class="navbar-brand" style="color: white; border-bottom: 2px solid #fff">
+            <a href="projects" style="margin-right: 10px">
+            <span class="navbar-brand" style="color: white; border-bottom: 2px solid #fff; padding: 15px; line-height: 20px;">
                 <strong>Projects</strong>
             </span>
             </a>
         </div>
 </header>
+
+<style>
+    html {
+        font-size: 14px;
+    }
+    .container {
+        font-size: 14px;
+        color: #666666;
+        font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+        margin-left: 0px;
+    }
+</style>
 
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -85,6 +105,30 @@
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
+
+<div class="container">
+    <div class="row pt-5 m-auto">
+        <div class="col-md-6 col-lg-4 pb-3">
+
+            <!-- Copy the content below until next comment -->
+            <div class="card card-custom bg-white border-white border-0">
+                <div class="card-custom-img" style="background-image: url(http://res.cloudinary.com/d3/image/upload/c_scale,q_auto:good,w_1110/trianglify-v1-cs85g_cc5d2i.jpg);"></div>
+                <div class="card-custom-avatar">
+                    <img class="img-fluid" src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg" alt="Avatar" />
+                </div>
+                <div class="card-body" style="overflow-y: auto">
+                    <h4 class="card-title" style="text-align: left">Card title</h4>
+                    <p class="card-text" style="text-align: left">Card has minimum height set but will expand if more space is needed for card body content. You can use Bootstrap <a href="https://getbootstrap.com/docs/4.0/components/card/#card-decks" target="_blank">card-decks</a> to align multiple cards nicely in a row.</p>
+                </div>
+                <div class="card-footer" style="background: inherit; border-color: inherit;">
+                    <a href="#" class="btn btn-outline-primary">Github <i class="fa fa-github"></i></a></a>
+                </div>
+            </div>
+            <!-- Copy until here -->
+        </div>
+    </div>
+</div>
+
 
 </body>
 
