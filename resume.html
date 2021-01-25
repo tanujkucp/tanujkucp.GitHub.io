@@ -30,6 +30,9 @@
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
+    <!-- Custom index css -->
+    <link rel="stylesheet" href="css/main.css">
+
     <!-- Custom navbar and footer css -->
     <link rel="stylesheet" href="css/nav-and-footer.css">
 
@@ -85,6 +88,36 @@
             height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.4/pdfobject.min.js"
+        integrity="sha512-mW7siBAOOJTkMl77cTke1Krn+Wz8DJrjMzlKaorrGeGecq0DPUq28KgMrX060xQQOGjcl7MSSep+/1FOprNltw=="
+        crossorigin="anonymous"></script>
+<style>
+    /* Only resize the element if PDF is embedded */
+    .pdfobject-container {
+        max-width: 100%;
+        width: 600px;
+        height: 900px;
+        border: 1px solid rgba(0, 0, 0, .2);
+        margin: 0;
+    }
+</style>
+<div class="jumbotron" id="jumbo2" align="center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p style="text-align: center">
+                    You can download my <a href="files/Resume___Tanuj_Mehta.pdf" id="resume">Resume </a> from here.
+                </p>
+                <div id="my-container"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    PDFObject.embed("files/Resume___Tanuj_Mehta.pdf", "#my-container");
+</script>
 
 </body>
 
