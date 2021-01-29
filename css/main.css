@@ -1,6 +1,6 @@
 #jumbo1 {
   text-align: left;
-  background-image: url('../images/gradient2.jpg');
+  background-image: linear-gradient(to bottom, #4aa6f3, #9fa4f0, #d1a4e2, #efa9d0, #fdb5c1);
   background-repeat: repeat-x;
   background-size: 70% 100%;
   margin: 0px;
