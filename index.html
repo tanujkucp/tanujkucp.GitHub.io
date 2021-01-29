@@ -5,6 +5,7 @@
 	<meta charset="utf8"/>
 	<meta name="title" content="Tanuj Mehta ✨">
 	<meta name="description" content="Tanuj Mehta • Profile, Resume and Projects"/>
+	<meta name="theme-color" content="#4aa6f3"/>
 
 	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website">
@@ -128,7 +129,13 @@
 	</div>
 </div>
 
-
+<script>
+    if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+            .register('/serviceWorker.js')
+            .then(function() { console.log("Service Worker Registered"); });
+    }
+</script>
 
 </body>
 
