@@ -1,8 +1,9 @@
 {
   "short_name": "Tanuj Mehta ✨",
   "name": "Tanuj Mehta ✨",
-  "start_url": ".",
-  "scope": ".",
+  "start_url": "https://tanujkucp.github.io/",
+  "scope": "https://tanujkucp.github.io/",
+  "orientation": "portrait",
   "display": "standalone",
   "icons": [
     {
